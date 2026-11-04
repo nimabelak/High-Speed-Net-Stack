@@ -1,6 +1,6 @@
 ### LAB2 REPORT
 
-I ran the command based on the instructions (first picture).
+I ran the command based on the instructions.
 
 ![perf record command](images/perf_record_command.png)
 
