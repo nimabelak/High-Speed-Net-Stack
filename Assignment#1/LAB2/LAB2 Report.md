@@ -9,7 +9,7 @@ I ran the command based on the instructions.
 sudo perf record -e 'sched:*,kmem:*,net:netif*,syscalls:sys_enter_mmap,syscalls:sys_exit_mmap,tcp:*,i2c:*' --call-graph fp ./program
 ```
 
-To view the results and the events raised by the program, I used the `sudo perf report` command. Here is the result (second picture).
+To view the results and the events raised by the program, I used the `sudo perf report` command. Here is the result.
 
 ![Events raised by the program](images/events_raised_by_the_program.png)
 
