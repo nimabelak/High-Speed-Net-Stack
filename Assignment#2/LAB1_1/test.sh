@@ -10,7 +10,7 @@ echo > "$TRACE/trace"
 echo > "$TRACE/set_event"
 echo > "$TRACE/set_event_pid"
 echo > "$TRACE/set_ftrace_pid"
-echo > "$TRACE/set_graph_function"
+echo netdev_tx_t > "$TRACE/set_graph_function"
 
 echo function_graph > "$TRACE/current_tracer"
 
